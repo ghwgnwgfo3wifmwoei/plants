@@ -1,0 +1,48 @@
+.plantContainer {
+  width: 145px;
+  height: 195px;
+  background-color: darkolivegreen;
+
+  border-radius: 20px;
+
+  position: relative;
+}
+
+.iconsContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+
+  background-color: rgba(255, 255, 255, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 20px;
+}
+
+.infoContainer {
+  width: 100%;
+  height: 120px;
+
+  position: absolute;
+  bottom: 0;
+
+  border-radius: 20px;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  border-radius: 100%;
+  background-color: #789a5c;
+  color: white;
+}
