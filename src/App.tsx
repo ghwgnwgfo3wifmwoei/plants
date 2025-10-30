@@ -1,6 +1,6 @@
-import { Button } from "./Components/Button";
-import { PlantsRow } from "./Components/PlantsRow";
-import { Section } from "./Components/Section";
+import { Button } from "./components/Button";
+import { PlantsRow } from "./components/PlantsRow";
+import { Section } from "./components/Section";
 
 function App() {
   return (
@@ -10,10 +10,10 @@ function App() {
         <Button value="Finished?" />
       </Section>
 
-      <Section title="This week" status="4 more plants need you this week.">
+      <Section title="This week" status="4 more plants need you this week">
         <PlantsRow />
       </Section>
-      <Section title="Your plants" status="6 plants.">
+      <Section title="Your plants" status="6 plants">
         <Button value="Sort by" />
 
         <PlantsRow />

@@ -1,8 +1,8 @@
 export const WaterIcon = () => (
   <svg
-    fill="#2c91fb"
-    width="20px"
-    height="20px"
+    fill="#2f93fb"
+    width="16px"
+    height="16px"
     viewBox="0 0 32 32"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -13,8 +13,8 @@ export const WaterIcon = () => (
 
 export const GroundIcon = () => (
   <svg
-    width="20px"
-    height="20px"
+    width="16px"
+    height="16px"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

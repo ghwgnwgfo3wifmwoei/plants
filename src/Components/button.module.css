@@ -1,23 +1,9 @@
-.base {
-  font: inherit;
-  line-height: 1;
-  outline: 0;
-  cursor: pointer;
-  border: none;
-  user-select: none;
-  vertical-align: middle;
-  background-color: #789a5c;
-  color: white;
-}
-
 .regularButton {
-  composes: base;
   padding: 10px 22px;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
 }
 
 .iconButton {
-  composes: base;
   border-radius: 100%;
   width: 40px;
   height: 40px;
