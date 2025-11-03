@@ -12,9 +12,7 @@
   --section-3-background: #2c3922;
   --icons-transparent-background: rgba(255, 255, 255, 0.7);
   --shadow: rgba(0, 0, 0, 0.2);
-  --font-size-0: 1rem;
-  --font-size-1: 1.125rem;
-  --font-size-2: 1.563rem;
+  --font-size-0: 14px;
 }
 
 *,
@@ -39,11 +37,11 @@ body {
 }
 
 h1 {
-  font-size: var(--font-size-2);
+  font-size: var(--font-size-0);
 }
 
 h2 {
-  font-size: var(--font-size-1);
+  font-size: var(--font-size-0);
 }
 
 h3,

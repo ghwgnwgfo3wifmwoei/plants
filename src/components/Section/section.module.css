@@ -1,11 +1,12 @@
 .section {
   padding: var(--spacing-2x) var(--spacing-1x);
   min-height: var(--section-mininimum-height);
+  display: flex;
+  flex-direction: column;
 }
 
 .section:nth-of-type(1) {
-  /* background: linear-gradient(white, 60%, #a1b98e); */
-  background-color: bisque;
+  background: linear-gradient(white, 60%, #a1b98e);
 }
 
 .section:nth-of-type(2) {
@@ -19,4 +20,14 @@
   }
 
   background-color: var(--section-3-background);
+}
+
+.row {
+  margin: var(--spacing-2x) 0;
+  display: flex;
+  gap: var(--spacing-1x);
+}
+
+.buttonContainer {
+  align-self: flex-end;
 }
